@@ -135,123 +135,108 @@ function oneworld(id) {
     console.log(fullname)
     var bigdiv = document.getElementById("sample2")
     if (id==1){
-        bigdiv.innerHTML = `<table border="0" cellpadding="0" cellspacing="0" class="sample" style="border-collapse:collapse">
-                <tbody>
-                    <tr>
-                        <td valign="top" width="60" style="width:45.0pt; padding:0in 5.4pt 0in 5.4pt">
-                            <p class="x_MsoNormal"><span style="font-size:8.0pt"><img 
-                            src="https://theofficeanalytics.files.wordpress.com/2017/11/dwight.jpeg?w=1200"
-                            style="height:64px; width: 64px; border-radius:10px"></span></p>
-                        </td>
-                        <td valign="top" width="250" style="width:187.45pt; padding:0in 5.4pt 0in 5.4pt">
-                            <p class="x_MsoNormal"><b><span
-                                        style="font-size:11.0pt; font-family:&quot;Arial&quot;,sans-serif; color:#7FC41C">${fullname}</span></b><b><span
-                                        style="font-family:&quot;Arial&quot;,sans-serif; color:#7FC41C"></span></b></p>
-                            <p class="x_MsoNormal"><span
-                                    style="font-size:8.0pt; font-family:&quot;Arial&quot;,sans-serif">${designationname}</span></p>
-                            <table border="0" width="100" cellpadding="0" cellspacing="0" class="x_MsoNormalTable"
-                                style="width:75.0pt">
-                                <tbody>
-                                    <tr>
-                                        <td style="padding:3.75pt 3.75pt 0in 0in">
-                                            <p class="x_MsoNormal"><a
-                                                    href="${linkedinicon}"
-                                                    target="_blank" rel="noopener noreferrer" data-auth="NotApplicable"
-                                                    data-linkindex="0" data-ogsc=""
-                                                    style="color: rgb(228, 159, 255) !important;"><span
-                                                        style="font-size: 13.5pt; font-family: Times; color: rgb(222, 152, 255) !important; text-decoration: none;"
-                                                        data-ogsc="blue"><img id="linkedinid"  
-                                                            naturalheight="0" naturalwidth="0"
-                                                            src="https://img.icons8.com/material-rounded/50/000000/linkedin--v1.png"
-                                                            border="0" 
-                                                            style="width: 0.25in; height: 0.25in;"></span></a><span
-                                                    style="font-size: 13.5pt; font-family: Times; color: rgb(255, 255, 255) !important;"
-                                                    data-ogsc="black"></span></p>
-                                        </td>
-                                        <td style="padding:3.75pt 3.75pt 0in 0in">
-                                            <p class="x_MsoNormal"><a href="${twittericon}"
-                                                    target="_blank" rel="noopener noreferrer" data-auth="NotApplicable"
-                                                    data-linkindex="1" data-ogsc=""
-                                                    style="color: rgb(228, 159, 255) !important; display:${twittericon?`block`:`none`}"><span
-                                                        style="font-size: 13.5pt; font-family: Times; color: rgb(222, 152, 255) !important; text-decoration: none;"
-                                                        data-ogsc="blue"><img id="twitterid" 
-                                                            naturalheight="0" naturalwidth="0"
-                                                            src="https://img.icons8.com/material-rounded/50/000000/twitter.png"
-                                                            border="0"
-                                                            style="width: 0.25in; height: 0.25in;"></span></a><span
-                                                    style="font-size: 13.5pt; font-family: Times; color: rgb(255, 255, 255) !important;"
-                                                    data-ogsc="black"></span></p>
-                                        </td>
-                                        <td style="padding:3.75pt 3.75pt 0in 0in">
-                                            <p class="x_MsoNormal"><a href="${facebookicon}"
-                                                    target="_blank" rel="noopener noreferrer" data-auth="NotApplicable"
-                                                    data-linkindex="1" data-ogsc=""
-                                                    style="color: rgb(228, 159, 255) !important; display:${facebookicon?`block`:`none`}"><span
-                                                        style="font-size: 13.5pt; font-family: Times; color: rgb(222, 152, 255) !important; text-decoration: none;"
-                                                        data-ogsc="blue"><img id="facebookid" 
-                                                            naturalheight="0" naturalwidth="0"
-                                                            src="https://img.icons8.com/material-rounded/50/000000/facebook.png"
-                                                            border="0"
-                                                            style="width: 0.25in; height: 0.25in;"></span></a><span
-                                                    style="font-size: 13.5pt; font-family: Times; color: rgb(255, 255, 255) !important;"
-                                                    data-ogsc="black"></span></p>
-                                        </td>
-                                        <td style="padding:3.75pt 3.75pt 0in 0in">
-                                            <p class="x_MsoNormal"><a href="${youtubeicon}"
-                                                    target="_blank" rel="noopener noreferrer" data-auth="NotApplicable"
-                                                    data-linkindex="1" data-ogsc=""
-                                                    style="color: rgb(228, 159, 255) !important;"><span
-                                                        style="font-size: 13.5pt; font-family: Times; color: rgb(222, 152, 255) !important; text-decoration: none;"
-                                                        data-ogsc="blue"><img id="youtubeid" 
-                                                            naturalheight="0" naturalwidth="0"
-                                                            src="https://img.icons8.com/material-rounded/50/000000/youtube-play.png"
-                                                            border="0"
-                                                            style="width: 0.25in; height: 0.25in;"></span></a><span
-                                                    style="font-size: 13.5pt; font-family: Times; color: rgb(255, 255, 255) !important;"
-                                                    data-ogsc="black"></span></p>
-                                        </td>
-                                        <td style="padding:3.75pt 3.75pt 0in 0in">
-                                            <p class="x_MsoNormal"><a href="${whatsappicon}"
-                                                    target="_blank" rel="noopener noreferrer" data-auth="NotApplicable"
-                                                    data-linkindex="1" data-ogsc=""
-                                                    style="color: rgb(228, 159, 255) !important;"><span
-                                                        style="font-size: 13.5pt; font-family: Times; color: rgb(222, 152, 255) !important; text-decoration: none;"
-                                                        data-ogsc="blue"><img id="whatsappid" 
-                                                            naturalheight="0" naturalwidth="0"
-                                                            src="https://img.icons8.com/material-rounded/40/000000/whatsapp.png"
-                                                            border="0"
-                                                            style="width: 0.25in; height: 0.25in;"></span></a><span
-                                                    style="font-size: 13.5pt; font-family: Times; color: rgb(255, 255, 255) !important;"
-                                                    data-ogsc="black"></span></p>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p class="x_MsoNormal"><b><span lang="FR-CA" style="font-size: 8pt; color: rgb(255, 169, 59) !important;"
-                        data-ogsc="rgb(225, 127, 0)">Mobile</span></b><b><span lang="FR-CA"
-                        style="font-size:8.0pt">:</span></b><span lang="FR-CA" style="font-size:8.0pt">
-                    ${phonenumber}&nbsp; <b><span style="color: rgb(255, 169, 59) !important;"
-                            data-ogsc="rgb(225, 127, 0)">Email</span>:</b> <a href="mailto:${emailname}"
-                        target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="5"
-                        data-ogsc="" style="color: rgb(228, 159, 255) !important;"><span
-                            style="color: rgb(138, 184, 255) !important;"
-                            data-ogsc="rgb(5, 99, 193)">${emailname}</span></a> </span></p>
-            <hr width="100%" style="border: 2px solid #7FC41C; float:left; clear:both;" ><br>
-            <p class="x_MsoNormal"><b><span style="font-size: 8pt; color: rgb(255, 169, 59) !important;"
-                        data-ogsc="rgb(225, 127, 0)">Web</span></b><b><span style="font-size:8.0pt">:</span></b><span
-                    style="font-size:8.0pt"> <a href="${websitename}" target="_blank" rel="noopener noreferrer"
-                        data-auth="NotApplicable" data-linkindex="6" data-ogsc=""
-                        style="color: rgb(228, 159, 255) !important;"><span
-                            style="color: rgb(138, 184, 255) !important;"
-                            data-ogsc="rgb(5, 99, 193)">${websitename}</span></a> &nbsp;<b><span
-                            style="color: rgb(255, 169, 59) !important;"
-                            data-ogsc="rgb(225, 127, 0)">Address</span>:</b> 701 Brazos St., Austin, TX 78701</span></p>
-        </div>
-        <p class="x_MsoNormal">&nbsp;</p>
+        bigdiv.innerHTML = `<div class="sample">
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse">
+            <tbody>
+                <tr>
+                    <td valign="top" width="60" style="width:45.0pt; padding:0in 5.4pt 0in 5.4pt">
+                        <p class="x_MsoNormal"><span style="font-size:8.0pt"><img
+                                    src="https://theofficeanalytics.files.wordpress.com/2017/11/dwight.jpeg?w=1200"
+                                    style="height:64px; width: 64px; border-radius:10px"></span></p>
+                    </td>
+                    <td valign="top" width="250" style="width:187.45pt; padding:0in 5.4pt 0in 5.4pt">
+                        <p class="x_MsoNormal"><b><span
+                                    style="font-size:11.0pt; font-family:&quot;Arial&quot;,sans-serif; color:#7FC41C">${fullname}</span></b><b><span
+                                    style="font-family:&quot;Arial&quot;,sans-serif; color:#7FC41C"></span></b></p>
+                        <p class="x_MsoNormal"><span
+                                style="font-size:8.0pt; font-family:&quot;Arial&quot;,sans-serif">${designationname}</span>
+                        </p>
+                        <table border="0" width="100" cellpadding="0" cellspacing="0" class="x_MsoNormalTable"
+                            style="width:75.0pt">
+                            <tbody>
+                                <tr>
+                                    <td style="padding:3.75pt 3.75pt 0in 0in">
+                                        <p class="x_MsoNormal"><a href="${linkedinicon}" target="_blank"
+                                                rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="0"
+                                                data-ogsc="" style="color: rgb(228, 159, 255) !important;"><span
+                                                    style="font-size: 13.5pt; font-family: Times; color: rgb(222, 152, 255) !important; text-decoration: none;"
+                                                    data-ogsc="blue"><img id="linkedinid" naturalheight="0" naturalwidth="0"
+                                                        src="https://img.icons8.com/material-rounded/50/000000/linkedin--v1.png"
+                                                        border="0" style="width: 0.25in; height: 0.25in;"></span></a><span
+                                                style="font-size: 13.5pt; font-family: Times; color: rgb(255, 255, 255) !important;"
+                                                data-ogsc="black"></span></p>
+                                    </td>
+                                    <td style="padding:3.75pt 3.75pt 0in 0in">
+                                        <p class="x_MsoNormal"><a href="${twittericon}" target="_blank"
+                                                rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="1"
+                                                data-ogsc=""
+                                                style="color: rgb(228, 159, 255) !important; display:${twittericon?`block`:`none`}"><span
+                                                    style="font-size: 13.5pt; font-family: Times; color: rgb(222, 152, 255) !important; text-decoration: none;"
+                                                    data-ogsc="blue"><img id="twitterid" naturalheight="0" naturalwidth="0"
+                                                        src="https://img.icons8.com/material-rounded/50/000000/twitter.png"
+                                                        border="0" style="width: 0.25in; height: 0.25in;"></span></a><span
+                                                style="font-size: 13.5pt; font-family: Times; color: rgb(255, 255, 255) !important;"
+                                                data-ogsc="black"></span></p>
+                                    </td>
+                                    <td style="padding:3.75pt 3.75pt 0in 0in">
+                                        <p class="x_MsoNormal"><a href="${facebookicon}" target="_blank"
+                                                rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="1"
+                                                data-ogsc=""
+                                                style="color: rgb(228, 159, 255) !important; display:${facebookicon?`block`:`none`}"><span
+                                                    style="font-size: 13.5pt; font-family: Times; color: rgb(222, 152, 255) !important; text-decoration: none;"
+                                                    data-ogsc="blue"><img id="facebookid" naturalheight="0" naturalwidth="0"
+                                                        src="https://img.icons8.com/material-rounded/50/000000/facebook.png"
+                                                        border="0" style="width: 0.25in; height: 0.25in;"></span></a><span
+                                                style="font-size: 13.5pt; font-family: Times; color: rgb(255, 255, 255) !important;"
+                                                data-ogsc="black"></span></p>
+                                    </td>
+                                    <td style="padding:3.75pt 3.75pt 0in 0in">
+                                        <p class="x_MsoNormal"><a href="${youtubeicon}" target="_blank"
+                                                rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="1"
+                                                data-ogsc="" style="color: rgb(228, 159, 255) !important;"><span
+                                                    style="font-size: 13.5pt; font-family: Times; color: rgb(222, 152, 255) !important; text-decoration: none;"
+                                                    data-ogsc="blue"><img id="youtubeid" naturalheight="0" naturalwidth="0"
+                                                        src="https://img.icons8.com/material-rounded/50/000000/youtube-play.png"
+                                                        border="0" style="width: 0.25in; height: 0.25in;"></span></a><span
+                                                style="font-size: 13.5pt; font-family: Times; color: rgb(255, 255, 255) !important;"
+                                                data-ogsc="black"></span></p>
+                                    </td>
+                                    <td style="padding:3.75pt 3.75pt 0in 0in">
+                                        <p class="x_MsoNormal"><a href="${whatsappicon}" target="_blank"
+                                                rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="1"
+                                                data-ogsc="" style="color: rgb(228, 159, 255) !important;"><span
+                                                    style="font-size: 13.5pt; font-family: Times; color: rgb(222, 152, 255) !important; text-decoration: none;"
+                                                    data-ogsc="blue"><img id="whatsappid" naturalheight="0" naturalwidth="0"
+                                                        src="https://img.icons8.com/material-rounded/40/000000/whatsapp.png"
+                                                        border="0" style="width: 0.25in; height: 0.25in;"></span></a><span
+                                                style="font-size: 13.5pt; font-family: Times; color: rgb(255, 255, 255) !important;"
+                                                data-ogsc="black"></span></p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="x_MsoNormal"><b><span lang="FR-CA" style="font-size: 8pt; color: rgb(255, 169, 59) !important;"
+                    data-ogsc="rgb(225, 127, 0)">Mobile</span></b><b><span lang="FR-CA"
+                    style="font-size:8.0pt">:</span></b><span lang="FR-CA" style="font-size:8.0pt">
+                ${phonenumber}&nbsp; <b><span style="color: rgb(255, 169, 59) !important;"
+                        data-ogsc="rgb(225, 127, 0)">Email</span>:</b> <a href="mailto:${emailname}" target="_blank"
+                    rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="5" data-ogsc=""
+                    style="color: rgb(228, 159, 255) !important;"><span style="color: rgb(138, 184, 255) !important;"
+                        data-ogsc="rgb(5, 99, 193)">${emailname}</span></a> </span></p>
+        <hr width="100%" style="border: 2px solid #7FC41C; float:left; clear:both;"><br>
+        <p class="x_MsoNormal"><b><span style="font-size: 8pt; color: rgb(255, 169, 59) !important;"
+                    data-ogsc="rgb(225, 127, 0)">Web</span></b><b><span style="font-size:8.0pt">:</span></b><span
+                style="font-size:8.0pt"> <a href="${websitename}" target="_blank" rel="noopener noreferrer"
+                    data-auth="NotApplicable" data-linkindex="6" data-ogsc=""
+                    style="color: rgb(228, 159, 255) !important;"><span style="color: rgb(138, 184, 255) !important;"
+                        data-ogsc="rgb(5, 99, 193)">${websitename}</span></a> &nbsp;<b><span
+                        style="color: rgb(255, 169, 59) !important;" data-ogsc="rgb(225, 127, 0)">Address</span>:</b> 701
+                Brazos
+                St., Austin, TX 78701</span></p>
     </div>`
     } else if (id==2){
         bigdiv.innerHTML = `            <div id="two" class="o-signature-preview sample two tab-pane">

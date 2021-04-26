@@ -1,1 +1,1 @@
-web: gunicorn emailsignature.wsgi --log-file -
+web: gunicorn email_signature.wsgi --log-file -
